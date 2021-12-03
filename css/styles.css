@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* Variables */
+/* General Styles */
+:root {
+  font-size: 62.5%;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 0;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+.grow {
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.grow:hover {
+  -webkit-transform: scale(1.025);
+          transform: scale(1.025);
+}
+
+header {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6rem;
+}
+
+header .nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .nav-bar .logo {
+  line-height: 2rem;
+}
+
+header .nav-bar .logo .name {
+  font-weight: 600;
+}
+
+header .nav-bar .logo .tagline {
+  font-weight: 300;
+}
+
+header .nav-bar .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .nav-bar .nav-list .nav-item {
+  margin-left: 2rem;
+}
+
+header .nav-bar .nav-list .nav-item .nav-link {
+  color: rgba(0, 0, 0, 0.35);
+  font-size: 1.4rem;
+  -webkit-transition: ease-in-out 200ms;
+  transition: ease-in-out 200ms;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+
+header .nav-bar .nav-list .nav-item .nav-link:hover {
+  color: black;
+  padding-bottom: 0.6rem;
+  border-bottom: 2px solid black;
+}
+
+.content-container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.content-container .line-medium {
+  display: block;
+  width: 75px;
+  border-top: 2px solid rgba(0, 0, 0, 0.15);
+  margin-bottom: 2.5rem;
+}
+
+.content-container .caption {
+  margin-bottom: 10rem;
+  line-height: 2rem;
+  font-weight: 400;
+}
+
+.content-container .grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.content-container .grid .grid-item {
+  margin-bottom: 2rem;
+}
+
+.content-container .grid .grid-item .grid-case-title {
+  margin-top: 2rem;
+  font-weight: 600;
+}
+
+.content-container .grid .grid-item .grid-case-description {
+  margin-top: 1rem;
+  line-height: 2rem;
+}
+
+.content-container .grid .grid-item .grid-case-roles {
+  margin-top: 1rem;
+  font-weight: 300;
+}
+
+.content-container .grid .grid-case-cover {
+  width: 100%;
+  background-size: cover;
+}
+
+footer {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  font-size: 1.4rem;
+}
+
+footer .foot-bar .foot-message {
+  margin-top: 2rem;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.15);
+}
+
+footer .foot-bar .foot-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .foot-bar .foot-list .foot-item {
+  margin-left: 2rem;
+}
+
+footer .foot-bar .foot-list .foot-item:first-child {
+  margin-left: 0;
+}
+
+footer .foot-bar .foot-list .foot-item .foot-link {
+  color: rgba(0, 0, 0, 0.35);
+  -webkit-transition: ease-in-out 200ms;
+  transition: ease-in-out 200ms;
+}
+
+footer .foot-bar .foot-list .foot-item .foot-link:hover {
+  color: black;
+}
+
+@media screen and (min-width: 576px) {
+  .content-container .caption {
+    width: 510px;
+  }
+  footer .foot-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .foot-bar .foot-message {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .content-container .grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .content-container .grid .grid-item .grid-case-description {
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

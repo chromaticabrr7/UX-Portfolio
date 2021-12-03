@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Variables */
+
+$inter: 'Inter', sans-serif;
+
+/* General Styles */
+
+:root {
+    font-size: 62.5%;
+}
+
+html {
+    font-family: $inter;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 0;
+
+    &:last-child {
+        margin-bottom: 0;;
+    }
+}
+
+.grow {
+    transition: all 200ms ease-in-out;
+
+    &:hover {
+        transform: scale(1.025);
+    }
+}
+
+
+
+header {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+    .nav-bar {
+        display: flex;
+        justify-content: space-between;
+
+        .logo {
+            line-height: 2rem;
+
+            .name {
+                font-weight: 600;
+            }
+
+            .tagline {
+                font-weight: 300;
+            }
+        }
+
+        .nav-list {
+            display: flex;
+            
+            .nav-item {
+                margin-left: 2rem;
+
+                .nav-link {
+                    color: rgba(0, 0, 0, 0.35);
+                    font-size: 1.4rem;
+                    transition: ease-in-out 200ms;
+                    padding-bottom: 0.4rem;
+                    border-bottom: 2px solid rgba(0, 0, 0, 0);
+
+                    &:hover {
+                        color: rgba(0, 0, 0, 1);
+                        padding-bottom: 0.6rem;
+                        border-bottom: 2px solid rgba(0, 0, 0, 1);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.content-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+
+    .line-medium {
+        display: block;
+        width: 75px;
+        border-top: 2px solid rgba(0, 0, 0, 0.15);
+        margin-bottom: 2.5rem;
+    }
+
+    .caption {
+        margin-bottom: 10rem;
+        line-height: 2rem;
+        font-weight: 400;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+
+        .grid-item {
+            margin-bottom: 2rem;
+
+            .grid-item-link {
+              
+            }
+
+            .grid-case-title {
+                margin-top: 2rem;
+                font-weight: 600;
+            }
+
+            .grid-case-description {
+                margin-top: 1rem;
+                line-height: 2rem;
+            }
+
+            .grid-case-roles {
+                margin-top: 1rem;
+                font-weight: 300;
+            }
+
+        }
+
+        .grid-item-1 {
+
+        }
+
+        .grid-case-cover {
+            width: 100%;
+            background-size: cover;
+        }
+    }
+}
+
+footer {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
+
+    .foot-bar {
+
+        .foot-message {
+            margin-top: 2rem;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.15);
+        }
+
+        .foot-list {
+            display: flex;
+            justify-content: center;
+
+            .foot-item {
+                margin-left: 2rem;
+
+                &:first-child {
+                    margin-left: 0;
+                }
+
+                .foot-link {
+                    color: rgba(0, 0, 0, 0.35);
+                    transition: ease-in-out 200ms;
+
+                    &:hover {
+                        color: rgba(0, 0, 0, 1);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .content-container {
+        .caption {
+            width: 510px;
+        }
+    }
+
+    footer {
+        .foot-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .foot-message {
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .content-container {
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+
+            .grid-item {
+                .grid-case-description {
+                    width: 80%;
+                }
+            }
+        }
+    }
+}
