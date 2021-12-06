@@ -59,6 +59,7 @@ header .nav-bar {
 
 header .nav-bar .logo {
   line-height: 2rem;
+  color: black;
 }
 
 header .nav-bar .logo .name {
@@ -107,6 +108,11 @@ header .nav-bar .nav-list .nav-item .nav-link:hover {
   width: 75px;
   border-top: 2px solid rgba(0, 0, 0, 0.15);
   margin-bottom: 2.5rem;
+}
+
+.content-container .emoji {
+  margin-bottom: 2.5rem;
+  font-size: 3rem;
 }
 
 .content-container .caption {
@@ -186,6 +192,16 @@ footer .foot-bar .foot-list .foot-item .foot-link {
 
 footer .foot-bar .foot-list .foot-item .foot-link:hover {
   color: black;
+}
+
+.footer-fix {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 3rem;
+  width: 90%;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 576px) {
