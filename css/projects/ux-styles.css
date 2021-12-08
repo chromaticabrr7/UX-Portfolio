@@ -405,6 +405,12 @@ header {
     margin-top: 2rem;
   }
   /* Individual Projects */
+  header {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8rem;
+    width: 90%;
+  }
   .header-container {
     display: -webkit-box;
     display: -ms-flexbox;
