@@ -1,0 +1,466 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+/* Font Sizings */
+/* Colours */
+/* General Styles */
+:root {
+  font-size: 62.5%;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+/* Container Classes */
+.content-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Spacing Classes */
+.small-top-spacing {
+  margin-top: 5rem;
+}
+
+.medium-top-spacing {
+  margin-top: 7rem;
+}
+
+.medium-bottom-spacing {
+  margin-bottom: 7rem;
+}
+
+/* Heading Classes */
+.section-heading {
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.185rem;
+  margin-bottom: 3rem;
+}
+
+.slide-heading {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.slide-heading-secondary {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.list-item {
+  font-weight: 500;
+}
+
+/* Body Text Classes */
+.body-text {
+  font-weight: 400;
+  line-height: 2.3rem;
+}
+
+/* Visual Aid Classes */
+.visual-aid {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.visual-aid-sm {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.full-width-visual-aid {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.visual-aid-caption {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.visual-aid-caption-bold {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.border-radius {
+  border-radius: 2rem;
+}
+
+/* Background Highlight Class */
+.background-highlight {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Projects Landing Page Content */
+.projects-navigation-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.projects-navigation-wrapper .projects-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 3rem 0;
+}
+
+.projects-navigation-wrapper .projects-navigation .projects-navigation-item {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.4rem;
+}
+
+.projects-navigation-wrapper .projects-navigation .projects-navigation-item .projects-link {
+  color: black;
+}
+
+.projects-header {
+  background: white;
+  color: black;
+}
+
+.projects-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80vh;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.projects-container .projects-list .intro {
+  font-weight: 500;
+  line-height: 2.5rem;
+  margin-bottom: 10rem;
+}
+
+.projects-container .projects-list .project-item .project-name {
+  font-size: 6.4rem;
+  font-weight: 400;
+}
+
+.projects-container .projects-list .project-item .project-name .project-button {
+  color: black;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.projects-container .projects-list .project-item .project-name .project-button:hover {
+  color: #6cbaee;
+}
+
+.projects-container .projects-list .project-item .project-summary {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 2.3rem;
+}
+
+.wip-label {
+  border-style: solid;
+  border-width: medium;
+  border-radius: 0.5rem;
+  padding: 0 0.5rem;
+  color: red;
+}
+
+/* Individual Project Content */
+.navigation-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.navigation-wrapper .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 3rem 0;
+}
+
+.navigation-wrapper .navigation .navigation-item {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.4rem;
+}
+
+.navigation-wrapper .navigation .navigation-item a {
+  color: white;
+}
+
+header {
+  background: #141413;
+  color: white;
+  margin-top: 6rem;
+  padding-top: 5rem;
+}
+
+.header-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.project-header-info {
+  margin-top: 5rem;
+  padding-bottom: 10rem;
+}
+
+.project-header-info .project-count {
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.185rem;
+}
+
+.project-header-info .project-title {
+  font-size: 6.4rem;
+  font-weight: 400;
+  margin-top: 2.5rem;
+}
+
+.project-header-info .project-description {
+  font-weight: 400;
+  line-height: 2.7rem;
+  margin-top: 2.5rem;
+}
+
+.project-header-info .project-roles {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 2.5rem;
+}
+
+.project-header-info .project-dates {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+.project-tease img {
+  width: 100%;
+}
+
+.stage {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+
+.stage-alt {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+
+/* Tablet Devices */
+@media screen and (min-width: 768px) {
+  /* PROJECTS LANDING PAGE */
+  /* INDIVIDUAL PROJECTS */
+  .header-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header-container .project-header-info .project-description {
+    width: 85%;
+  }
+  .header-container .project-tease img {
+    margin-top: auto;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .content-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .content-container .body-split-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .content-container .body-split-two .split-container {
+    width: 100%;
+  }
+  .single-image {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .single-image-alt {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .image-split-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .image-split-three {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* Projects Landing Page */
+  .projects-navigation-wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .projects-navigation-wrapper .projects-navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    padding: 3rem 0;
+  }
+  .projects-navigation-wrapper .projects-navigation .projects-navigation-item {
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.4rem;
+  }
+  .projects-navigation-wrapper .projects-navigation .projects-navigation-item .projects-link {
+    color: black;
+  }
+  .projects-header {
+    background: white;
+    color: black;
+  }
+  .projects-container {
+    max-width: 1200px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .projects-container .projects-list .intro {
+    width: 600px;
+  }
+  .projects-container .projects-list .project-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .projects-container .projects-list .project-item .project-summary {
+    width: 400px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+  /* Individual Projects */
+  .header-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 1200px;
+  }
+  .header-container .project-header-info .project-description {
+    width: 60%;
+  }
+  .header-container .project-tease {
+    margin-top: auto;
+  }
+  .header-container .project-tease img {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .content-container {
+    width: 650px;
+    margin: 0 auto;
+  }
+  .content-container .body-split-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .content-container .body-split-two .split-container {
+    width: 100%;
+  }
+  .single-image-full {
+    width: 100%;
+  }
+  .single-image {
+    width: 900px;
+    margin: 0 auto;
+  }
+  .single-image-alt {
+    width: 700px;
+    margin: 0 auto;
+  }
+  .image-split-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+  }
+  .image-split-three {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=ux-styles.css.map */

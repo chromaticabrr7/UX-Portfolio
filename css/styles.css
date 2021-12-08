@@ -42,46 +42,49 @@ li:last-child {
           transform: scale(1.025);
 }
 
-header {
+nav {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 6rem;
 }
 
-header .nav-bar {
+nav .nav-bar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-header .nav-bar .logo {
+nav .nav-bar .logo {
   line-height: 2rem;
   color: black;
 }
 
-header .nav-bar .logo .name {
+nav .nav-bar .logo .name {
   font-weight: 600;
 }
 
-header .nav-bar .logo .tagline {
+nav .nav-bar .logo .tagline {
   font-weight: 300;
 }
 
-header .nav-bar .nav-list {
+nav .nav-bar .nav-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-header .nav-bar .nav-list .nav-item {
+nav .nav-bar .nav-list .nav-item {
   margin-left: 2rem;
 }
 
-header .nav-bar .nav-list .nav-item .nav-link {
+nav .nav-bar .nav-list .nav-item .nav-link {
   color: rgba(0, 0, 0, 0.35);
   font-size: 1.4rem;
   -webkit-transition: ease-in-out 200ms;
@@ -90,7 +93,7 @@ header .nav-bar .nav-list .nav-item .nav-link {
   border-bottom: 2px solid rgba(0, 0, 0, 0);
 }
 
-header .nav-bar .nav-list .nav-item .nav-link:hover {
+nav .nav-bar .nav-list .nav-item .nav-link:hover {
   color: black;
   padding-bottom: 0.6rem;
   border-bottom: 2px solid black;
@@ -179,6 +182,7 @@ footer .foot-bar .foot-list {
 
 footer .foot-bar .foot-list .foot-item {
   margin-left: 2rem;
+  margin-bottom: 0;
 }
 
 footer .foot-bar .foot-list .foot-item:first-child {
