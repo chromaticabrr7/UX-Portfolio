@@ -46,6 +46,8 @@ li {
     }
 }
 
+/* Navigation Styles */
+
 nav {
     width: 90%;
     margin-left: auto;
@@ -92,6 +94,8 @@ nav {
         }
     }
 }
+
+/* Content Styles */
 
 .content-container {
     width: 90%;
@@ -158,6 +162,8 @@ nav {
     }
 }
 
+/* Footer Styles */
+
 footer {
     width: 90%;
     margin-left: auto;
@@ -207,6 +213,8 @@ footer {
     width: 90%;
     margin: 0 auto;
 }
+
+/* Media Queries */
 
 @media screen and (min-width: 576px) {
     .content-container {

@@ -42,6 +42,7 @@ li:last-child {
           transform: scale(1.025);
 }
 
+/* Navigation Styles */
 nav {
   width: 90%;
   margin-left: auto;
@@ -99,6 +100,7 @@ nav .nav-bar .nav-list .nav-item .nav-link:hover {
   border-bottom: 2px solid black;
 }
 
+/* Content Styles */
 .content-container {
   width: 90%;
   margin-left: auto;
@@ -157,6 +159,7 @@ nav .nav-bar .nav-list .nav-item .nav-link:hover {
   background-size: cover;
 }
 
+/* Footer Styles */
 footer {
   width: 90%;
   margin-left: auto;
@@ -209,6 +212,7 @@ footer .foot-bar .foot-list .foot-item .foot-link:hover {
   margin: 0 auto;
 }
 
+/* Media Queries */
 @media screen and (min-width: 576px) {
   .content-container .caption {
     width: 510px;
