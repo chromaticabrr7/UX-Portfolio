@@ -41,6 +41,7 @@ $backgroundSmokeyBlack: #141413;
 $backgroundHighlight: #FFF4E4;
 $backgroundHightlightText: rgba(65, 42, 9, 0.5);
 $backgroundGrey: rgba(0, 0, 0, 0.05);
+$backgroundGrey-alt: rgba(0, 0, 0, 0.1);
 
 /* General Styles */
 
@@ -84,6 +85,10 @@ li {
 
 /* Spacing Classes */
 
+.extrasmall-top-spacing {
+    margin-top: 2.5rem;
+}
+
 .small-top-spacing {
     margin-top: 5rem;
 }
@@ -115,11 +120,11 @@ li {
 .slide-heading-secondary {
     font-size: $slideHeadingSecondaryFontSize;
     font-weight: $slideHeadingSecondaryFontWeight;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .list-item {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 /* Body Text Classes */
@@ -327,6 +332,12 @@ header {
 
 .stage-alt {
     background-color: $backgroundGrey;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+.stage-alt-2 {
+    background-color: $backgroundGrey-alt;
     padding-top: 12rem;
     padding-bottom: 12rem;
 }

@@ -40,6 +40,10 @@ li:last-child {
 }
 
 /* Spacing Classes */
+.extrasmall-top-spacing {
+  margin-top: 2.5rem;
+}
+
 .small-top-spacing {
   margin-top: 5rem;
 }
@@ -70,11 +74,11 @@ li:last-child {
 .slide-heading-secondary {
   font-size: 2rem;
   font-weight: 500;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .list-item {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 /* Body Text Classes */
@@ -294,6 +298,12 @@ header {
 
 .stage-alt {
   background-color: rgba(0, 0, 0, 0.05);
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+
+.stage-alt-2 {
+  background-color: rgba(0, 0, 0, 0.1);
   padding-top: 12rem;
   padding-bottom: 12rem;
 }
