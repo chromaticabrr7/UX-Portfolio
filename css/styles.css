@@ -139,6 +139,10 @@ nav .nav-bar .nav-list .nav-item .nav-link:hover {
   margin-bottom: 2rem;
 }
 
+.content-container .grid .grid-item .grid-item-link {
+  position: relative;
+}
+
 .content-container .grid .grid-item .grid-case-title {
   margin-top: 2rem;
   font-weight: 600;
@@ -157,6 +161,16 @@ nav .nav-bar .nav-list .nav-item .nav-link:hover {
 .content-container .grid .grid-case-cover {
   width: 100%;
   background-size: cover;
+}
+
+.content-container .grid .coming-soon-overlay {
+  position: absolute;
+  bottom: 250px;
+  left: 50%;
+  right: 50%;
+  background: black;
+  width: 100%;
+  height: 100%;
 }
 
 /* Footer Styles */
