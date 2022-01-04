@@ -418,6 +418,18 @@ header {
         margin: 0 auto;
     }
 
+    .stage-alt {
+        background-color: $backgroundGrey;
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+    
+    .stage-alt-2 {
+        background-color: $backgroundGrey-alt;
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -535,6 +547,22 @@ header {
     .image-split-three {
         display: flex;
         width: 900px;
+        margin: 0 auto;
+    }
+
+    .stage-alt {
+        background-color: $backgroundGrey;
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .stage-alt-2 {
+        background-color: $backgroundGrey-alt;
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+        width: 90%;
         margin: 0 auto;
     }
 
