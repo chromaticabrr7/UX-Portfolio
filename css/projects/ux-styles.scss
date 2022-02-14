@@ -17,10 +17,10 @@ $sectionHeadingFontWeight: 800;
 $slideHeadingFontSize: 2.4rem;
 $slideHeadingFontWeight: 600;
 
-$slideHeadingSecondaryFontSize: 2rem;
+$slideHeadingSecondaryFontSize: 2.2rem;
 $slideHeadingSecondaryFontWeight: 500;
 
-$bodyTextFontSize: 1.6rem;
+$bodyTextFontSize: 1.8rem;
 $bodyTextFontWeight: 400;
 
 $captionFontSize: 1.2rem;
@@ -130,8 +130,9 @@ li {
 /* Body Text Classes */
 
 .body-text {
-    font-weight: 400;
-    line-height: 2.3rem;
+    font-weight: $bodyTextFontWeight;
+    line-height: 3rem;
+    font-size: $bodyTextFontSize;
 }
 
 /* Visual Aid Classes */

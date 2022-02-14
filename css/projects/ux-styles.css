@@ -72,7 +72,7 @@ li:last-child {
 }
 
 .slide-heading-secondary {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 500;
   margin-bottom: 1.5rem;
 }
@@ -84,7 +84,8 @@ li:last-child {
 /* Body Text Classes */
 .body-text {
   font-weight: 400;
-  line-height: 2.3rem;
+  line-height: 3rem;
+  font-size: 1.8rem;
 }
 
 /* Visual Aid Classes */
