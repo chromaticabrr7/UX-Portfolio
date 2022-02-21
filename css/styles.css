@@ -176,6 +176,7 @@ nav .nav-bar .nav-list .nav-item .nav-link:hover {
 /* Footer Styles */
 footer {
   width: 90%;
+  margin-top: 4rem;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3rem;

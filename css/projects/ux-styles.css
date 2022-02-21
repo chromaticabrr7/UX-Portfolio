@@ -370,6 +370,27 @@ header {
   padding-bottom: 12rem;
 }
 
+/* Credits */
+.reference-name {
+  font-style: italic;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.reference-link {
+  color: rgba(0, 0, 0, 0.4);
+  -webkit-transition: ease-in-out 200ms;
+  transition: ease-in-out 200ms;
+  padding-bottom: 0.1rem;
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+
+.reference-link:hover {
+  color: black;
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid black;
+}
+
 /* Anchor Nav */
 .anchor-nav {
   display: none;
