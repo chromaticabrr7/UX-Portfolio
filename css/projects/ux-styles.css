@@ -149,6 +149,10 @@ li:last-child {
   margin: 1rem;
 }
 
+.highlight {
+  font-weight: 600;
+}
+
 /* Visual Aid Classes */
 .visual-aid {
   display: block;
@@ -693,6 +697,9 @@ header {
   }
   .anchor-nav.active {
     visibility: visible;
+    opacity: 0.3;
+  }
+  .anchor-nav.active:hover {
     opacity: 1;
   }
 }
